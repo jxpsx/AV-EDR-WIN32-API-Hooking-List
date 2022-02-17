@@ -1,0 +1,110 @@
+[-] ntdll.dll!LdrLoadDll [JMP]
+    [*] 00007FFDE1106A10  jmp 0x00007FFDA11704D8
+[-] ntdll.dll!RtlAddVectoredExceptionHandler [JMP]
+    [*] 00007FFDE1171670  jmp 0x00007FFDA11709B8
+[-] ntdll.dll!NtSetInformationThread [JMP]
+    [*] 00007FFDE118CF00  jmp 0x00007FFDA11706B8
+[-] ntdll.dll!NtAllocateVirtualMemory [JMP]
+    [*] 00007FFDE118D060  jmp 0x00007FFDA1170178
+[-] ntdll.dll!NtSetInformationProcess [JMP]
+    [*] 00007FFDE118D0E0  jmp 0x00007FFDA1170598
+[-] ntdll.dll!NtFreeVirtualMemory [JMP]
+    [*] 00007FFDE118D120  jmp 0x00007FFDA11701D8
+[-] ntdll.dll!NtOpenProcess [JMP]
+    [*] 00007FFDE118D220  jmp 0x00007FFDA1170298
+[-] ntdll.dll!NtMapViewOfSection [JMP]
+    [*] 00007FFDE118D260  jmp 0x00007FFDA1170238
+[-] ntdll.dll!NtUnmapViewOfSection [JMP]
+    [*] 00007FFDE118D2A0  jmp 0x00007FFDA11702F8
+[-] ntdll.dll!NtTerminateProcess [JMP]
+    [*] 00007FFDE118D2E0  jmp 0x00007FFDA1170958
+[-] ntdll.dll!NtQuerySystemInformation [JMP]
+    [*] 00007FFDE118D420  jmp 0x00007FFDA11705F8
+[-] ntdll.dll!NtWriteVirtualMemory [JMP]
+    [*] 00007FFDE118D4A0  jmp 0x00007FFDA1170358
+[-] ntdll.dll!NtReadVirtualMemory [JMP]
+    [*] 00007FFDE118D540  jmp 0x00007FFDA1170718
+[-] ntdll.dll!NtQueueApcThread [JMP]
+    [*] 00007FFDE118D600  jmp 0x00007FFDA1170778
+[-] ntdll.dll!NtProtectVirtualMemory [JMP]
+    [*] 00007FFDE118D760  jmp 0x00007FFDA11703B8
+[-] ntdll.dll!NtResumeThread [JMP]
+    [*] 00007FFDE118D7A0  jmp 0x00007FFDA1170478
+[-] ntdll.dll!NtCreateThreadEx [JMP]
+    [*] 00007FFDE118E570  jmp 0x00007FFDA1170838
+[-] ntdll.dll!NtCreateUserProcess [JMP]
+    [*] 00007FFDE118E650  jmp 0x00007FFDA11708F8
+[-] ntdll.dll!NtLoadDriver [JMP]
+    [*] 00007FFDE118EDF0  jmp 0x00007FFDA1170418
+[-] ntdll.dll!NtMapUserPhysicalPages [JMP]
+    [*] 00007FFDE118EFB0  jmp 0x00007FFDA1170A18
+[-] ntdll.dll!NtQuerySystemInformationEx [JMP]
+    [*] 00007FFDE118F970  jmp 0x00007FFDA1170658
+[-] ntdll.dll!NtQueueApcThreadEx [JMP]
+    [*] 00007FFDE118F9F0  jmp 0x00007FFDA11707D8
+[-] ntdll.dll!NtSetContextThread [JMP]
+    [*] 00007FFDE118FEB0  jmp 0x00007FFDA1170538
+[-] ntdll.dll!KiUserApcDispatcher [JMP]
+    [*] 00007FFDE1190A70  jmp 0x00007FFDA1170898
+[-] KernelBase.dll!CreateProcessInternalW [JMP]
+    [*] 00007FFDDEDE7E90  jmp 0x00007FFDA1170BF8
+[-] KernelBase.dll!CopyFileExW [JMP]
+    [*] 00007FFDDEE30A60  jmp 0x00007FFDA1170B98
+[-] KernelBase.dll!LoadLibraryA [JMP]
+    [*] 00007FFDDEE58C30  jmp 0x00007FFDA1170B38
+[-] KernelBase.dll!UnhandledExceptionFilter [JMP]
+    [*] 00007FFDDEEEB690  jmp 0x00007FFDA1170AD8
+[-] crypt32.dll!CryptUnprotectData [JMP]
+    [*] 00007FFDDE984E70  jmp 0x00007FFDA11714F8
+[-] ole32.dll!CoGetObject [JMP]
+    [*] 00007FFDDFBAE180  jmp 0x00007FFDA1171438
+[-] samcli.dll!NetUserAdd [JMP]
+    [*] 00007FFDD310D230  jmp 0x00007FFDA1171618
+[-] shell32.dll!Shell_NotifyIconW [JMP]
+    [*] 00007FFDE085E6F0  jmp 0x00007FFDA1171498
+[-] sspicli.dll!InitializeSecurityContextW [JMP]
+    [*] 00007FFDDE6F1350  jmp 0x00007FFDA11715B8
+[-] sspicli.dll!LsaCallAuthenticationPackage [JMP]
+    [*] 00007FFDDE6F2E80  jmp 0x00007FFDA1171558
+[-] user32.dll!CreateWindowExA [JMP]
+    [*] 00007FFDDF813C10  jmp 0x00007FFDA1171078
+[-] user32.dll!CreateWindowExW [JMP]
+    [*] 00007FFDDF817720  jmp 0x00007FFDA1171018
+[-] user32.dll!PeekMessageA [JMP]
+    [*] 00007FFDDF819980  jmp 0x00007FFDA1171258
+[-] user32.dll!PeekMessageW [JMP]
+    [*] 00007FFDDF81A3E0  jmp 0x00007FFDA11711F8
+[-] user32.dll!SetWindowLongPtrW [JMP]
+    [*] 00007FFDDF81B7C0  jmp 0x00007FFDA1170E38
+[-] user32.dll!SetWindowLongW [JMP]
+    [*] 00007FFDDF820F10  jmp 0x00007FFDA1170D78
+[-] user32.dll!GetKeyState [JMP]
+    [*] 00007FFDDF82E0C0  jmp 0x00007FFDA1170D18
+[-] user32.dll!GetMessageW [JMP]
+    [*] 00007FFDDF831B10  jmp 0x00007FFDA1171138
+[-] user32.dll!SystemParametersInfoW [JMP]
+    [*] 00007FFDDF8332E0  jmp 0x00007FFDA1171378
+[-] user32.dll!GetAsyncKeyState [JMP]
+    [*] 00007FFDDF833E60  jmp 0x00007FFDA1170CB8
+[-] user32.dll!GetMessageA [JMP]
+    [*] 00007FFDDF838680  jmp 0x00007FFDA1171198
+[-] user32.dll!SystemParametersInfoA [JMP]
+    [*] 00007FFDDF838A50  jmp 0x00007FFDA11713D8
+[-] user32.dll!SetWindowsHookExW [JMP]
+    [*] 00007FFDDF83B250  jmp 0x00007FFDA1170EF8
+[-] user32.dll!SetWindowLongA [JMP]
+    [*] 00007FFDDF83C7E0  jmp 0x00007FFDA1170DD8
+[-] user32.dll!SetWindowLongPtrA [JMP]
+    [*] 00007FFDDF83C840  jmp 0x00007FFDA1170E98
+[-] user32.dll!SetWindowsHookExA [JMP]
+    [*] 00007FFDDF85F540  jmp 0x00007FFDA1170F58
+[-] win32u.dll!NtUserSetProp [JMP]
+    [*] 00007FFDDEC019B0  jmp 0x00007FFDA1170C58
+[-] win32u.dll!NtUserShowWindow [JMP]
+    [*] 00007FFDDEC01B10  jmp 0x00007FFDA11710D8
+[-] win32u.dll!NtUserGetKeyboardState [JMP]
+    [*] 00007FFDDEC01EF0  jmp 0x00007FFDA11712B8
+[-] win32u.dll!NtUserAttachThreadInput [JMP]
+    [*] 00007FFDDEC02C10  jmp 0x00007FFDA1171318
+[-] win32u.dll!NtUserRegisterRawInputDevices [JMP]
+    [*] 00007FFDDEC0A4B0  jmp 0x00007FFDA1170FB8
