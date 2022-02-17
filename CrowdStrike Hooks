@@ -1,0 +1,56 @@
+[-] ntdll.dll!NtDeviceIoControlFile [JMP]
+    [*] 00007FFC98A2CE43  jmp 0x00007FFC98AA9F7B
+[-] ntdll.dll!NtSetInformationThread [JMP]
+    [*] 00007FFC98A2CF03  jmp 0x00007FFC98AA9F7F
+[-] ntdll.dll!NtAllocateVirtualMemory [JMP]
+    [*] 00007FFC98A2D063  jmp 0x00007FFC98AA9F85
+[-] ntdll.dll!NtSetInformationProcess [JMP]
+    [*] 00007FFC98A2D0E3  jmp 0x00007FFC98AA9F7E
+[-] ntdll.dll!NtQueryInformationThread [JMP]
+    [*] 00007FFC98A2D203  jmp 0x00007FFC98AA9F80
+[-] ntdll.dll!NtMapViewOfSection [JMP]
+    [*] 00007FFC98A2D263  jmp 0x00007FFC98AA9F8B
+[-] ntdll.dll!NtUnmapViewOfSection [JMP]
+    [*] 00007FFC98A2D2A3  jmp 0x00007FFC98AA9F8A
+[-] ntdll.dll!NtWriteVirtualMemory [JMP]
+    [*] 00007FFC98A2D4A3  jmp 0x00007FFC98AA9F82
+[-] ntdll.dll!NtReadVirtualMemory [JMP]
+    [*] 00007FFC98A2D543  jmp 0x00007FFC98AA9F83
+[-] ntdll.dll!NtQueueApcThread [JMP]
+    [*] 00007FFC98A2D603  jmp 0x00007FFC98AA9F7D
+[-] ntdll.dll!NtProtectVirtualMemory [JMP]
+    [*] 00007FFC98A2D763  jmp 0x00007FFC98AA9F84
+[-] ntdll.dll!NtResumeThread [JMP]
+    [*] 00007FFC98A2D7A3  jmp 0x00007FFC98AA9F86
+[-] ntdll.dll!NtAllocateVirtualMemoryEx [JMP]
+    [*] 00007FFC98A2DC13  jmp 0x00007FFC98AA9F79
+[-] ntdll.dll!NtCreateMutant [JMP]
+    [*] 00007FFC98A2E3B3  jmp 0x00007FFC98AA9F77
+[-] ntdll.dll!NtGetContextThread [JMP]
+    [*] 00007FFC98A2EB93  jmp 0x00007FFC98AA9F89
+[-] ntdll.dll!NtMapViewOfSectionEx [JMP]
+    [*] 00007FFC98A2EFD3  jmp 0x00007FFC98AA9F78
+[-] ntdll.dll!NtQueueApcThreadEx [JMP]
+    [*] 00007FFC98A2F9F3  jmp 0x00007FFC98AA9F7C
+[-] ntdll.dll!NtSetContextThread [JMP]
+    [*] 00007FFC98A2FEB3  jmp 0x00007FFC98AA9F88
+[-] ntdll.dll!NtSuspendThread [JMP]
+    [*] 00007FFC98A304D3  jmp 0x00007FFC98AA9F87
+[-] ntdll.dll!NtUnmapViewOfSectionEx [JMP]
+    [*] 00007FFC98A306D3  jmp 0x00007FFC98AA9F81
+[-] win32u.dll!NtUserSetProp [JMP]
+    [*] 00007FFC966E19B3  jmp 0x00007FFC966EBFAA
+[-] win32u.dll!NtUserSetWindowLong [JMP]
+    [*] 00007FFC966E1B93  jmp 0x00007FFC966EBFA9
+[-] win32u.dll!NtUserSetWindowsHookEx [JMP]
+    [*] 00007FFC966E2153  jmp 0x00007FFC966EBFAB
+[-] win32u.dll!NtUserSetWindowsHookAW [JMP]
+    [*] 00007FFC966E2EB3  jmp 0x00007FFC966EBFAC
+[-] win32u.dll!NtGdiAddFontMemResourceEx [JMP]
+    [*] 00007FFC966E3093  jmp 0x00007FFC966EBFA6
+[-] win32u.dll!NtGdiAddFontResourceW [JMP]
+    [*] 00007FFC966E3FF3  jmp 0x00007FFC966EBFA7
+[-] win32u.dll!NtGdiAddRemoteFontToDC [JMP]
+    [*] 00007FFC966E4033  jmp 0x00007FFC966EBFA5
+[-] win32u.dll!NtUserSetWindowLongPtr [JMP]
+    [*] 00007FFC966EB493  jmp 0x00007FFC966EBFA8
